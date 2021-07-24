@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+h1,h2,h3,ul,li {
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+
+
+}
+
+
+body  {
+  color: #666; 
+}
+header {
+  text-align: center;
+
+  
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+.logo {
+  width: 400px;
+  margin: 30px auto;
+}
+
+.maining {
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+
+nav ul li {
+  list-style: none;
+  display: inline;
+ 
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav li a {
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #666;
+}
+
+nav li a:hover {
+  border-bottom: 4px solid #d08047;
+
+}
+a {
+  transition: 0.3s;
+  color: #666;
+}
+
+h2 {
+  color: #fff;
+  background: #d08047;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.date{
+  float:left;
+  font-weight: bold;
+}
+.date,.history{
+  padding: 5px 15px;
+}
+h3{
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 10px;
+  padding: 8px 20px;
+  font-size: 16px;
+
+}
+ p {
+padding: 0 20px 20px;
+}
+
+.point {
+ color: #d08047;
+ font-weight: bold;
+}
+
+.footer-under {
+  font-size: 12px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  line-height: 2;
+}
+
+footer a{
+text-decoration: none;
+}
+footer a:hover {
+  color: #d08047;
+}
+
+
+
+/*about*/
+
+table {
+  border: 1px solid #666;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+  border-spacing: 0;
+
+}
+
+
+.menu {
+  font-weight: bold;
+}
+table th {
+  background: lightgrey;
+  text-align: left;
+
+
+}
+
+
+table th ,table td {
+  padding: 10px;
+  
+  
+  }
+.orange{
+  color: #d08047;
+}
+
+.gray{
+  background: #e5e5e5;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+
+
+
+.change {
+  background: lightgrey;
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+
+.color {
+  color: #d08047;
+}
+
+section p {
+  line-height: 1.9;
+ }
+ 
+
+
+/*Gallery*/
+
+.list {
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 3px;
+  
+}
+
+.list img {
+  float: left;
+  width: 20%;
+  margin: 20px;
+
+}
+
+.list h4 {
+  color: #d08047;font-weight: normal;
+}
+
+.list p {
+  line-height: 1.5px;
+}
+
+/* link*/
+
+
+table img {
+  width:100%;
+  display: block;
+  padding: 0;
+}
+
+.menu{
+  width: 35%;
+  background: #fff;
+  text-align: center;
+}
+.menu,.text{
+  border: 1px solid #666;
+}
+
+
+/*レスポンシブ*/
+@media screen and (max-width:740px){
+
+body{
+    font-size: 5px;
+  }
+
+section h2{
+font-size: 12px;
+padding: 5px;
+}
+
+nav ul{
+ display: flex;
+}
+
+nav ul li{
+  width: calc(100%/4);
+}
+
+
+.logo{
+  width:50%; 
+}
+}
